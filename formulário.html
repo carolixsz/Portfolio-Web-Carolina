@@ -1,0 +1,36 @@
+<!--Fazendo o formulário para contato-->
+<header>
+    <link rel="stylesheet" href="style.css">
+    <title>Formulário de Contato</title>
+
+    <body>
+        <div align="center">
+            <h1>Formulário para Contato</h1>
+             <form>
+                <label>Nome:</label><br>
+                <input type="text" id="nome"><br><br>
+                
+                <label>Email:</label><br>
+                <input type="email" id="email"><br><br>
+                
+                <label>Número de Contato:</label><br>
+                <input type="tel" id="telefone"><br><br>
+
+                <button type="button" onclick="validarForm()" id="botaoConf">Confirmar</button>
+                <br><br>
+                <p id="mensagem"></p>
+
+                <!-- Botão de envio do formulário (TERMINAR ISSO AQUI, pois quero que funcione somente se o confirmar estiver tudo certo)-->
+                <button type="submit" id="botaoEnviar">Enviar</button>
+                    <br><br>
+                        
+            </form>
+
+            <br>
+            <a href="index.html"><button id="botaoForm">Voltar</button></a>
+        </div>
+       
+
+        <script src="script.js"></script>
+    </body>
+</header>

@@ -1,0 +1,97 @@
+/*Para fazer a navegação suave entre as sessões */
+html{
+    scroll-behavior: smooth;
+}
+
+/* definindo o estilo da minha pagina*/
+body{
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    background-color: #430941ea;
+    margin: 60px;
+    padding: 20px;
+}
+p{ /* quis definir um tamanho maior para os textos*/
+    font-size: medium;
+    text-align: justify;
+}
+
+/*definindo a navegação e o estilo dos botões*/
+nav button{
+    background-color:#B48CC840;
+    font-family: 'Courier New', Courier, monospace;
+    color: #D8BFD8;
+    border: none;
+    border-radius: 50px;
+    font-size:larger;
+    cursor: pointer;  /*cursor de mãozinha para botões*/
+}
+
+/* Colocando o título e a imagem lado a lado */
+#cont_titulo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#imagem{
+   text-align: right;
+    width: 250px;
+}
+
+/*definindo a cor e o estilo das seções*/
+section{
+    background-color: #B48CC840;
+    padding: 15px;
+    border-radius: 15px;
+    width: 50%;
+}
+
+
+/* trabalhando nas seções de apresentação e resumo*/
+#cont_menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#apresent, #resu{
+    width: 43%;
+}
+#sobreMim, #comp, #tec{
+    width: 30%;
+    height: 30%;
+}
+#proj1, #proj2, #proj3{
+    width: 30%;
+    height: 30%;
+}
+
+/*coloquei um bloco para uma quebra de texto maior*/
+.bloco{
+    margin-bottom: 15%;
+}
+
+
+/*Rodapé*/
+footer{
+    font-family:'Times New Roman', Times, serif;
+    justify-items: center;
+    text-align: center;
+    font-size:smaller;
+    margin-top: 20px;
+    
+}
+
+/*Personalizando os botões do formulário*/
+#botaoForm, #botaoEnviar, #botaoConf{
+    background-color:#B48CC840;
+    font-family: 'Courier New', Courier, monospace;
+    color: #D8BFD8;
+    border: none;
+    border-radius: 50px;
+    font-size:larger;
+    cursor: pointer;
+}
+
+a{
+    color: white;
+}
